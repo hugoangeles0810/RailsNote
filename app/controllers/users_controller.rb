@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+  layout 'log-layout'
 
   def new
   	@user = User.new

@@ -1,5 +1,5 @@
 class SessionsController < ApplicationController
-  layout false
+  layout 'log-layout'
   
   def new
   end
